@@ -1,0 +1,2 @@
+# JavaScriptTypeScript
+learning new language 
