@@ -23,5 +23,37 @@ function myOutfit(){
     return outerWear
 }
 
-console.log(myOutfit())
-console.log(outerWear)
+function timesFive(num){
+    return num*5;
+}
+console.log(timesFive(num=5));
+
+var sum = 0;
+function addThree(){
+    sum +=3;
+}
+console.log(sum)
+addThree()
+console.log(sum)
+addThree()
+console.log(sum)
+
+function ourTrueOrFalse(isItTrue){
+    if (isItTrue == 3){
+        return "yes it's tru"
+    }
+    return "no, it's false "
+}
+
+
+
+console.log(ourTrueOrFalse("3"));
+
+
+
+function isLess(a,b){
+    return a<b;
+
+}
+   
+console.log(isLess(16,15));
